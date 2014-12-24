@@ -9,11 +9,10 @@ public class Ofir_lesson_1Servlet extends HttpServlet {
 		int num1 = 4;
 		int num2 = 3;
 		int num3 = 7;
-		int num4 = num1 + num2;
-		int num5 = num4 * num3;
-		 
+		int num4 = (num1 + num2) * num3;
+				 
 		
 		resp.setContentType("text/plain");
-		resp.getWriter().println("Result of (" + num1 + "+" + num2 + ") * " + num3 + " = " + num5);
+		resp.getWriter().println("Result of (" + num1 + "+" + num2 + ") * " + num3 + " = " + num4);
 	}
 }
