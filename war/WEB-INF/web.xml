@@ -12,7 +12,19 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Ofir_lesson_1</servlet-name>
 		<url-pattern>/ofir_lesson_1</url-pattern>
 	</servlet-mapping>
+	
 		
+	<servlet>
+		<servlet-name>MathCalc</servlet-name>
+		<servlet-class>com.ofir.firstlesson.MathCalc</servlet-class>
+	</servlet>
+		
+	<servlet-mapping>
+		<servlet-name>MathCalc</servlet-name>
+		<url-pattern>/MathCalc</url-pattern>
+	</servlet-mapping>	
+		
+	
 	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
