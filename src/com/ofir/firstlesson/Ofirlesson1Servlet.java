@@ -3,7 +3,7 @@ import java.io.IOException;
 import javax.servlet.http.*;
 
 @SuppressWarnings("serial")
-public class Ofir_lesson_1Servlet extends HttpServlet {
+public class Ofirlesson1Servlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		
 		int num1 = 4;
